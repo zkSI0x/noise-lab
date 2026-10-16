@@ -51,6 +51,9 @@ main{max-width:1180px;margin:0 auto;padding:120px 32px 80px}
 .lede{font-family:var(--mono);font-size:13px;line-height:1.7}
 .lede p+p{margin-top:12px}
 .lede .tags{display:flex;gap:8px;flex-wrap:wrap;margin-top:16px}
+.lede .src{margin-top:14px;color:var(--fg-2)}
+.lede .src a{color:var(--fg);text-decoration:underline;text-underline-offset:3px}
+.lede .src a:hover,.lede .src a:focus-visible{color:var(--orange)}
 .card{background:var(--card);border:1px solid var(--line);border-radius:4px;padding:20px;position:relative}
 .card i.d{position:absolute;width:8px;height:8px;border-radius:50%;background:var(--fg)}
 .card i.d:nth-of-type(1){left:-4px;top:-4px}.card i.d:nth-of-type(2){right:-4px;top:-4px}.card i.d:nth-of-type(3){left:-4px;bottom:-4px}.card i.d:nth-of-type(4){right:-4px;bottom:-4px}
@@ -139,6 +142,7 @@ pre{white-space:pre-wrap;word-break:break-all;background:var(--bg);border:1px so
       <p>type a request. the lab hides it among decoy requests, pads every request to a fixed size class, gives them random arrival times, and commits to the decoys with a hash. then you look at the batch the way a provider would.</p>
       <p>this is the v0.1 client logic, running in your browser. nothing you type leaves this page: no request reaches any model, network or server.</p>
       <div class="tags"><span class="st or">LIVE · LOCAL ONLY</span><span class="st">v0.1</span><span class="st">NO NETWORK</span></div>
+      <p class="src">source: <a href="https://github.com/zkSI0x/noise-lab" target="_blank" rel="noopener noreferrer">github.com/zkSI0x/noise-lab</a> · MIT</p>
     </div>
   </section>
 
