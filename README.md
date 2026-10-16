@@ -43,7 +43,7 @@ Then open http://localhost:8000. Opening `index.html` straight from disk may blo
 index.html   page and styles
 lab.js       all the logic: envelope, padding, decoys, timing, commit, audit
 assets/      zkSI logo (SVG)
-fonts/       Inter and JetBrains Mono, self-hosted
+fonts/       Inter, JetBrains Mono and IBM Plex Mono, self-hosted
 ```
 
 The same files are served at https://zksi.io/lab/.
@@ -51,7 +51,7 @@ The same files are served at https://zksi.io/lab/.
 ## License
 
 Code: MIT, see [LICENSE](LICENSE).
-Fonts: SIL Open Font License 1.1, see `fonts/OFL-Inter.txt` and `fonts/OFL-JetBrainsMono.txt`.
+Fonts: SIL Open Font License 1.1, see `fonts/OFL-Inter.txt`, `fonts/OFL-JetBrainsMono.txt` and `fonts/OFL-IBMPlexMono.txt`.
 The zkSI name and logo are not covered by the MIT license.
 
 ## Links
